@@ -713,6 +713,145 @@ body.page-loaded {
         text-align: center;
     }
 }
+/* Contact Page Styles */
+.contact-info {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+    margin-bottom: 40px;
+}
+
+.contact-methods {
+    margin-top: 30px;
+}
+
+.contact-methods h3 {
+    color: var(--deep-ocean);
+    margin: 30px 0 15px 0;
+    font-size: 1.5rem;
+    border-bottom: 3px solid var(--pineapple-yellow);
+    padding-bottom: 10px;
+    display: inline-block;
+}
+
+.contact-methods p {
+    line-height: 1.8;
+    margin-bottom: 15px;
+}
+
+.contact-methods a {
+    color: var(--pineapple-orange);
+    font-weight: bold;
+    text-decoration: none;
+    border-bottom: 2px solid var(--pineapple-orange);
+    transition: all 0.3s;
+}
+
+.contact-methods a:hover {
+    color: var(--deep-ocean);
+    border-bottom-color: var(--deep-ocean);
+}
+
+/* About Author Section */
+.about-author {
+    background: linear-gradient(135deg, rgba(255, 255, 153, 0.3) 0%, rgba(255, 215, 0, 0.2) 100%);
+    padding: 40px;
+    border-radius: 20px;
+    margin: 40px 0;
+    border-left: 5px solid var(--pineapple-orange);
+}
+
+.about-author h2 {
+    color: var(--deep-ocean);
+    margin-bottom: 20px;
+}
+
+.about-author p {
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
+/* Licenses Page Styles */
+.licenses-content {
+    background: rgba(255, 255, 255, 0.9);
+    padding: 40px;
+    border-radius: 20px;
+}
+
+.licenses-content h2 {
+    color: var(--deep-ocean);
+    margin: 30px 0 20px 0;
+    font-size: 1.8rem;
+    border-bottom: 3px solid var(--pineapple-yellow);
+    padding-bottom: 10px;
+}
+
+.licenses-content h3 {
+    color: var(--pineapple-orange);
+    margin: 20px 0 15px 0;
+    font-size: 1.3rem;
+}
+
+.image-credits {
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.95) 0%, rgba(255, 215, 0, 0.1) 100%);
+    padding: 30px;
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.image-credits ul {
+    list-style: none;
+    padding: 0;
+}
+
+.image-credits li {
+    padding: 15px;
+    margin-bottom: 10px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    border-left: 4px solid var(--ocean-blue);
+    transition: transform 0.3s;
+}
+
+.image-credits li:hover {
+    transform: translateX(10px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.image-credits li strong {
+    color: var(--deep-ocean);
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.1rem;
+}
+
+.licenses-content ul {
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.licenses-content ul li {
+    margin-bottom: 10px;
+    line-height: 1.8;
+}
+
+/* Mobile Responsive for Contact/License Pages */
+@media (max-width: 768px) {
+    .contact-info,
+    .licenses-content,
+    .about-author {
+        padding: 20px;
+    }
+    
+    .contact-methods h3,
+    .licenses-content h2 {
+        font-size: 1.3rem;
+    }
+    
+    .image-credits li {
+        padding: 10px;
+    }
+}
 
 @media (min-width: 769px) {
     .pineapple-menu,
