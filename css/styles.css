@@ -295,6 +295,54 @@ body::before {
     border-radius: 10px;
 }
 
+/* Banner Ads */
+.banner-ad,
+.banner-ad-square {
+    text-align: center;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 20px;
+}
+
+.banner-ad a,
+.banner-ad-square a {
+    display: inline-block;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.banner-ad a:hover,
+.banner-ad-square a:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+.banner-ad img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.banner-ad-square img {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile Responsive */
+@media (max-width: 768px) {
+    .banner-ad img {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    .banner-ad-square img {
+        width: 200px;
+        height: 200px;
+    }
+}
+
 /* Section intro for info section */
 .section-intro {
     max-width: 900px;
