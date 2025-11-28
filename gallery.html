@@ -1,0 +1,552 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2K1HRFF214"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-2K1HRFF214');
+    </script>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary SEO Meta Tags -->
+    <title>SpongeBob Gallery | Pineapple House Photos & Bikini Bottom Images 2024</title>
+    <meta name="description" content="Browse our extensive SpongeBob gallery featuring pineapple house photos, Bikini Bottom images, memorable moments, and beloved characters. Explore iconic scenes from SpongeBob SquarePants!">
+    <meta name="keywords" content="spongebob gallery, spongebob images, bikini bottom photos, pineapple house pictures, spongebob characters photos, krusty krab images, jellyfish fields photos, spongebob moments gallery">
+    <meta name="author" content="DrDoodlebob25 - Bikini Bottom Tourism Board">
+    
+    <!-- Additional SEO Meta Tags -->
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    <meta name="distribution" content="global">
+    <meta name="rating" content="general">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="SpongeBob Gallery - Pineapple House & Bikini Bottom Photos">
+    <meta property="og:description" content="Explore memorable moments from Bikini Bottom! Browse our SpongeBob gallery featuring characters, locations, and iconic scenes from the pineapple house.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://spongebob-home-tour.netlify.app/gallery.html">
+    <meta property="og:image" content="https://spongebob-home-tour.netlify.app/img/pineapple-art-spongebob-house.gif">
+    <meta property="og:site_name" content="SpongeBob Pineapple House Tours">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="SpongeBob Gallery | Pineapple House Photos">
+    <meta name="twitter:description" content="Browse our SpongeBob gallery featuring memorable moments, characters, and locations from Bikini Bottom!">
+    <meta name="twitter:image" content="https://spongebob-home-tour.netlify.app/img/pineapple-art-spongebob-house.gif">
+    
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://spongebob-home-tour.netlify.app/gallery.html">
+    
+    <!-- CSS Files -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/styles.css">
+
+    <!-- JavaScript Files -->
+    <script src="js/main.js"></script>
+    <script src="js/cookie-consent.js"></script>
+
+    <script type="text/javascript" src="https://embeds.iubenda.com/widgets/127207ea-99c8-4872-a197-8644a97f1b45.js"></script>
+
+    <!-- Gallery-specific styles -->
+    <style>
+        .gallery-filter {
+            margin: 30px 0;
+            text-align: center;
+        }
+        
+        .filter-buttons {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+        }
+        
+        .filter-btn {
+            padding: 12px 24px;
+            background: #FFD700;
+            color: #003366;
+            border: 2px solid #003366;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .filter-btn:hover {
+            background: #003366;
+            color: #FFD700;
+            transform: translateY(-2px);
+        }
+        
+        .filter-btn.active {
+            background: #003366;
+            color: #FFD700;
+            box-shadow: 0 5px 15px rgba(0, 51, 102, 0.3);
+        }
+        
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+        
+        .gallery-item {
+            background: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .gallery-item:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+        }
+        
+        .gallery-image-placeholder {
+            height: 250px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 80px;
+        }
+        
+        .gallery-caption {
+            padding: 20px;
+        }
+        
+        .gallery-caption h3 {
+            color: #003366;
+            margin-bottom: 10px;
+            font-size: 20px;
+        }
+        
+        .gallery-caption p {
+            color: #666;
+            line-height: 1.6;
+        }
+    </style>
+
+    <!-- Schema.org Structured Data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ImageGallery",
+      "name": "SpongeBob Pineapple House & Bikini Bottom Gallery",
+      "description": "Comprehensive gallery featuring SpongeBob's pineapple house, Bikini Bottom locations, memorable moments, and beloved characters from the animated series",
+      "url": "https://spongebob-home-tour.netlify.app/gallery.html",
+      "image": "https://spongebob-home-tour.netlify.app/img/pineapple-art-spongebob-house.gif",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Bikini Bottom Tourism Board"
+      }
+    }
+    </script>
+</head>
+<body>
+    <!-- Pineapple Hamburger Menu -->
+    <div class="pineapple-menu" id="pineappleMenu">
+        <div class="pineapple-crown"></div>
+        <div class="pineapple-body">
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+            <span class="menu-line"></span>
+        </div>
+    </div>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobileNav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="gallery.html" class="active">Gallery</a>
+        <a href="visit.html">Visit</a>
+        <a href="contact.html">Contact</a>
+        <a href="licenses.html">Licenses</a>
+    </nav>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="header-content">
+            <h1 class="site-title">SpongeBob Pineapple House Gallery</h1>
+            <p class="tagline">Explore Memorable Moments from Bikini Bottom!</p>
+        </div>
+        
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
+            <a href="index.html" class="nav-link">Home</a>
+            <a href="about.html" class="nav-link">About</a>
+            <a href="gallery.html" class="nav-link active">Gallery</a>
+            <a href="visit.html" class="nav-link">Visit</a>
+            <a href="contact.html" class="nav-link">Contact</a>
+            <a href="licenses.html" class="nav-link">Licenses</a>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero-section">
+            <div class="hero-content">
+                <h2>Captured Memories from Bikini Bottom</h2>
+                <p class="lead-text">Dive into our collection of iconic scenes, hilarious moments, and beloved characters from the world of SpongeBob SquarePants. From the Krusty Krab to Jellyfish Fields, relive your favorite adventures!</p>
+
+            </div>
+        </section>
+
+        <section class="info-section">
+            <h2>Filter by Category</h2>
+            <div class="gallery-filter">
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">All</button>
+                    <button class="filter-btn" data-filter="characters">Characters</button>
+                    <button class="filter-btn" data-filter="locations">Locations</button>
+                    <button class="filter-btn" data-filter="moments">Memorable Moments</button>
+                    <button class="filter-btn" data-filter="episodes">Episodes</button>
+                </div>
+            </div>
+
+            <div class="gallery-grid">
+                    <!-- Characters Section -->
+                    <div class="gallery-item" data-category="characters">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #FFD700 0%, #FFA500 100%);">
+                            <span>🧽</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>SpongeBob SquarePants</h3>
+                            <p>Our optimistic and energetic hero in his natural habitat</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="characters">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #FFB6C1 0%, #FF69B4 100%);">
+                            <span>⭐</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Patrick Star</h3>
+                            <p>SpongeBob's best friend living his best life under a rock</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="characters">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #87CEEB 0%, #4682B4 100%);">
+                            <span>🦑</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Squidward Tentacles</h3>
+                            <p>The sophisticated artist and clarinet enthusiast</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="characters">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #8B4513 0%, #A0522D 100%);">
+                            <span>🦀</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Mr. Krabs</h3>
+                            <p>The money-loving owner of the Krusty Krab</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="characters">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #FF6347 0%, #FF4500 100%);">
+                            <span>🐿️</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Sandy Cheeks</h3>
+                            <p>The karate-chopping scientist from Texas</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="characters">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #90EE90 0%, #228B22 100%);">
+                            <span>🧪</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Plankton</h3>
+                            <p>The tiny villain with big schemes</p>
+                        </div>
+                    </div>
+
+                    <!-- Locations Section -->
+                    <div class="gallery-item" data-category="locations">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #FF4444 0%, #CC0000 100%);">
+                            <span>🍔</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>The Krusty Krab</h3>
+                            <p>Home of the world-famous Krabby Patty</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="locations">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #FFD700 0%, #FF8C00 100%);">
+                            <span>🍍</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>SpongeBob's Pineapple</h3>
+                            <p>The iconic fruit-shaped home at 124 Conch Street</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="locations">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #DDA0DD 0%, #BA55D3 100%);">
+                            <span>🪼</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Jellyfish Fields</h3>
+                            <p>The beautiful meadow where jellyfish roam free</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="locations">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #F0E68C 0%, #DAA520 100%);">
+                            <span>🏖️</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Goo Lagoon</h3>
+                            <p>Bikini Bottom's favorite underwater beach</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="locations">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #708090 0%, #2F4F4F 100%);">
+                            <span>🗿</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Squidward's House</h3>
+                            <p>The Easter Island head residence of sophistication</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="locations">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #32CD32 0%, #006400 100%);">
+                            <span>⚗️</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>The Chum Bucket</h3>
+                            <p>Plankton's restaurant and evil laboratory</p>
+                        </div>
+                    </div>
+
+                    <!-- Memorable Moments Section -->
+                    <div class="gallery-item" data-category="moments">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #FFE4B5 0%, #DEB887 100%);">
+                            <span>🍔✨</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>The Perfect Krabby Patty</h3>
+                            <p>SpongeBob creating his masterpiece with love</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="moments">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #E0BBE4 0%, #957DAD 100%);">
+                            <span>🥋</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Karate Island</h3>
+                            <p>SpongeBob and Sandy's epic karate showdown</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="moments">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #B0E0E6 0%, #5F9EA0 100%);">
+                            <span>🎵</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>The Campfire Song Song</h3>
+                            <p>SpongeBob leading the musical fun at camp</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="moments">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #FFB347 0%, #FF7F50 100%);">
+                            <span>🪼🥅</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Jellyfishing Adventures</h3>
+                            <p>The classic pastime of SpongeBob and Patrick</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="moments">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #77DD77 0%, #03C03C 100%);">
+                            <span>🎨</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>The Imagination Box</h3>
+                            <p>When imagination becomes reality inside a cardboard box</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="moments">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #FDFD96 0%, #F0E130 100%);">
+                            <span>🎤</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Sweet Victory</h3>
+                            <p>The legendary Bubble Bowl performance</p>
+                        </div>
+                    </div>
+
+                    <!-- Episodes Section -->
+                    <div class="gallery-item" data-category="episodes">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #87CEFA 0%, #4169E1 100%);">
+                            <span>🍔🎓</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Help Wanted</h3>
+                            <p>The very first episode where it all began</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="episodes">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #98FB98 0%, #00FA9A 100%);">
+                            <span>🎬</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Band Geeks</h3>
+                            <p>Squidward's band performs at the Bubble Bowl</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="episodes">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #DDA0DD 0%, #9370DB 100%);">
+                            <span>🧽⭐</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Pizza Delivery</h3>
+                            <p>The Krusty Krab's first pizza delivery adventure</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="episodes">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #FFA07A 0%, #FA8072 100%);">
+                            <span>💪</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>MuscleBob BuffPants</h3>
+                            <p>SpongeBob's attempt to become stronger</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="episodes">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #20B2AA 0%, #008B8B 100%);">
+                            <span>🏰</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>Dunces and Dragons</h3>
+                            <p>Medieval time-travel adventure in the past</p>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="episodes">
+                        <div class="gallery-image-placeholder" style="background: linear-gradient(135deg, #F08080 0%, #CD5C5C 100%);">
+                            <span>🌊</span>
+                        </div>
+                        <div class="gallery-caption">
+                            <h3>The SpongeBob Movie</h3>
+                            <p>The epic journey to Shell City and back</p>
+                    </div>
+                </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Want to See More?</h2>
+            <p>Watch full episodes and movies featuring these memorable moments and more! Explore the complete world of SpongeBob SquarePants and discover even more adventures from Bikini Bottom.</p>
+            <a href="visit.html" class="cta-button">Plan Your Visit to Bikini Bottom</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Pineapple House Tours</h4>
+                <ul>
+                    <li><a href="index.html">SpongeBob Pineapple House Home</a></li>
+                    <li><a href="about.html">About the Underwater Pineapple</a></li>
+                    <li><a href="gallery.html">Pineapple House Gallery</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Visit Bikini Bottom's Pineapple</h4>
+                <ul>
+                    <li><a href="visit.html">Pineapple House Tour Info</a></li>
+                    <li><a href="contact.html">Contact Bikini Bottom Tours</a></li>
+                    <li><a href="#">Pineapple House Gift Shop</a></li>
+                </ul>
+            </div>
+            
+            <div class="footer-section">
+                <h4>Find SpongeBob's Pineapple House</h4>
+                <p>124 Conch Street<br>
+                Bikini Bottom, Pacific Ocean<br>
+                Underwater Pineapple Home</p>
+                <p><a href="https://www.google.com/maps/place/Bikini+Atoll/@11.5833333,165.3833333,12z" target="_blank" rel="noopener"><strong>View Pacific Ocean on Google Maps</strong></a></p>
+                
+                <!-- Social Media Links -->
+                <div class="social-links" style="margin-top: 20px;">
+                    <h4 style="color: #FFD700; margin-bottom: 10px;">Follow Our Adventures</h4>
+                    <p>
+                        <a href="https://www.pinterest.com/drdoodlebob25/_profile" target="_blank" rel="noopener" style="color: #FFD700; margin-right: 15px;">📌 Pinterest</a>
+                        <a href="https://www.instagram.com/drdoodlebob25/" target="_blank" rel="noopener" style="color: #FFD700;">📷 Instagram</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2025 SpongeBob Pineapple House Tours | Bikini Bottom's Famous Underwater Pineapple Home | A Heritage Site</p>
+        </div>
+
+        <!-- Partner Link Section -->
+        <section class="partner-link">
+            <h2>Looking for Something Different?</h2>
+            <p>If you're ready to explore creative ways to use avocados beyond the traditional recipes, check out <a href="https://avocado-desserts.netlify.app/" target="_blank" rel="noopener">Sweet Avocado Desserts</a>, where you'll discover how this versatile fruit transforms into indulgent treats. Their featured avocado cake showcases expert knowledge of texture balance—combining the creamy richness of avocados with ground almonds to create a moist, nutty dessert that's both unique and crowd-pleasing. The site demonstrates trustworthy baking techniques that prove avocados aren't just for savory dishes, offering inspiration for brunches, birthdays, and special occasions when you want to serve something truly memorable.</p>
+        </section>
+       
+        <a href="https://www.iubenda.com/privacy-policy/89726833" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+
+        <a href="https://www.iubenda.com/privacy-policy/89726833/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </footer>
+
+    <script>
+        // Gallery filter functionality
+        const filterButtons = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterButtons.forEach(button => {
+            button.addEventListener('click', () => {
+                // Remove active class from all buttons
+                filterButtons.forEach(btn => btn.classList.remove('active'));
+                // Add active class to clicked button
+                button.classList.add('active');
+
+                const filterValue = button.getAttribute('data-filter');
+
+                galleryItems.forEach(item => {
+                    if (filterValue === 'all') {
+                        item.style.display = 'block';
+                    } else {
+                        if (item.getAttribute('data-category') === filterValue) {
+                            item.style.display = 'block';
+                        } else {
+                            item.style.display = 'none';
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
